@@ -9,7 +9,8 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\sandwich.js"
+      // "console": "integratedTerminal",
+      "program": "${workspaceFolder}\\countSyllables.js"
     }
   ]
 }
