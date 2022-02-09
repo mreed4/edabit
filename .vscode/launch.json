@@ -9,8 +9,8 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      // "console": "integratedTerminal",
-      "program": "${workspaceFolder}\\integerDigitsCount.js"
+      "console": "integratedTerminal",
+      "program": "${workspaceFolder}\\parseArray.js"
     }
   ]
 }

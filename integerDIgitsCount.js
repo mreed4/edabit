@@ -1,6 +1,6 @@
-// https://stackoverflow.com/a/28203456
-
 const count = (n) => {
+  // https://stackoverflow.com/a/28203456
+
   let result;
   if (n === 0) {
     result = 1;
@@ -14,3 +14,4 @@ let test = count(318);
 test = count(-314890);
 
 console.log(test);
+git;

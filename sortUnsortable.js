@@ -1,12 +1,3 @@
-function sortIt(arr) {
-
-    // Flatten array
-    arr = arr.flat(2);
-
-    // Sort array
-    arr = arr.sort();
-
-    // Magic
-    return arr;
-
-}
+const sortIt = (arr) => {
+  return arr.flat(2).sort();
+};
