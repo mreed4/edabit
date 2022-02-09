@@ -10,7 +10,7 @@
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
       // "console": "integratedTerminal",
-      "program": "${workspaceFolder}\\countSyllables.js"
+      "program": "${workspaceFolder}\\integerDigitsCount.js"
     }
   ]
 }

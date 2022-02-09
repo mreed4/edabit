@@ -1,6 +1,6 @@
 const afterNMonths = (year, months) => {
-  if (year === null) return "year missing";
-  if (months === null) return "month missing";
+  if (year === null || year === undefined) return "year missing";
+  if (months === null || months === undefined) return "month missing";
   return year + Math.floor(months / 12);
 };
 
